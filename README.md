@@ -1,1 +1,2 @@
-Added readme file
+Git has been set
+

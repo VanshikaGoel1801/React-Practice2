@@ -1,4 +1,4 @@
-const parent = React.createElement(
+const parent1 = React.createElement(
   "div",
   { id: "parent" },
   React.createElement("div", { id: "child" }, [
@@ -9,4 +9,4 @@ const parent = React.createElement(
 
 console.log(parent);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(parent1);
