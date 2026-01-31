@@ -1,13 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent1 = React.createElement(
-  "div",
-  { id: "parent" },
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "heading1" }, "i am a H1 Tag"),
-    React.createElement("h2", { id: "heading2" }, "Testing again "),
-  ]),
-);
+// React Element converted to React component
+const Heading = () => <h1>Hi from JSX</h1>;
+
+// React component (has one more component nested inside it - comopnent composition)
+const HeadingComponent = () => {
+  return (
+    <div id="container">
+      <Heading />
+      <h1>Hi this is a functional component</h1>
+    </div>
+  );
+};
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent1);
+root.render(<HeadingComponent />);
