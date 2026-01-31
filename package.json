@@ -1,0 +1,25 @@
+{
+  "name": "react_practice_2026_01_30",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://@github.com/VanshikaGoel1801/React-Practice2.git"
+  },
+  "author": "Vanshika Goel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanshikaGoel1801/React-Practice2/issues"
+  },
+  "homepage": "https://github.com/VanshikaGoel1801/React-Practice2#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
