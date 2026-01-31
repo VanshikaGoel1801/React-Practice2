@@ -6,7 +6,7 @@ const parent1 = React.createElement(
   { id: "parent" },
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", { id: "heading1" }, "i am a H1 Tag"),
-    React.createElement("h2", { id: "heading2" }, "i am a H2 Tag "),
+    React.createElement("h2", { id: "heading2" }, "Testing again "),
   ]),
 );
 const root = ReactDOM.createRoot(document.getElementById("root"));
